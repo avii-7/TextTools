@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import PropTypes from "prop-types";
 
 export default function TextForm(props) {
   // this will not be destroyed ...current value can be used against another function call
@@ -29,6 +28,3 @@ export default function TextForm(props) {
   );
 }
 
-TextForm.prototype = {
-  heading: PropTypes.string.isRequired,
-};
